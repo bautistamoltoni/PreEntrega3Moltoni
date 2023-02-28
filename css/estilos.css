@@ -2,5 +2,141 @@
  padding: 0px;
 box-sizing: border-box;
 }
+/* vista desktop */
+@media  (min-width: 1201px)  {
+
+/* nav bar */
+.li{
 
 
+background-color: white
+
+
+}
+.li:hover{
+background-color:rgb(253, 183, 125)
+}
+
+
+/* rugby7 */
+.parrafo-rugby7 {
+    
+    font-size: 15px;
+    margin: 7px;
+    font-weight: 500;
+    
+
+
+}
+/* rugby femenino */
+
+.parrafo-rugbyf{
+    font-size: 20px;
+
+
+}
+
+}
+
+/*  vista portatil o notebook */
+@media  (min-width: 1024px ) and (max-width: 1200px) {
+
+/* nav bar */
+.li{
+
+
+background-color: white
+
+}
+.li:hover{
+
+background-color:rgb(253, 183, 125)
+
+}
+
+/* rugby7 */
+.parrafo-rugby7 {
+    
+    font-size: 15px;
+    margin: 7px;
+    font-weight: 500;
+    
+
+
+}
+
+}
+
+/* vista tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+/* nav bar */
+.li{
+
+
+background-color: white
+
+}
+.li:hover{
+
+background-color:rgb(253, 183, 125)
+
+}
+
+/* rugby 7 */
+.parrafo-rugby7{
+
+    font-size: 18px;
+    font-weight: 500;
+}
+/* rugby femenino */
+.rugbyfem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+/* vista mobile */
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+/* nav bar */
+.li{
+
+
+background-color: white
+
+}
+.li:hover{
+
+background-color:rgb(253, 183, 125)
+
+}
+
+
+/* rugby 7 */
+.parrafo-rugby7{
+    font-weight: 500;
+}
+
+/* rugby femenino */
+.rugbyfem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contacto */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
