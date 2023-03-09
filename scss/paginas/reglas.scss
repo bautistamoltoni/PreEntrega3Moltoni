@@ -1,0 +1,39 @@
+@import "../utilidades/variables.scss";
+@import "./utilidades/medias-queries.scss";
+
+
+
+ 
+
+@include desktop {
+    .li-reglas{
+   
+    
+        font-size:($tamaño-texto)-2;
+    }
+    
+    .tackle{
+        font-size:($tamaño-texto)-2;
+    }
+
+
+    .line{
+        font-size: ($tamaño-texto)-2;
+    }
+
+    .scrum{
+        font-size: $tamaño-texto;
+    }
+    
+
+}
+
+@include portatil {
+
+
+    .li-reglas{
+   
+    
+        font-size:($tamaño-texto)-2;
+    }
+}

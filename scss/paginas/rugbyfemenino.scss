@@ -1,0 +1,43 @@
+@import "../utilidades/variables.scss";
+@import "./utilidades/medias-queries.scss";
+
+
+
+.parrafo-rugbyf{
+
+    font-size:$tamaño-texto;
+
+    @include portatil {
+
+        font-size: ($tamaño-texto)-2 ;
+    }
+
+    @include tablet {
+
+        font-size: ($tamaño-texto)-3;
+    }
+
+    @include mobile {
+
+        font-size: ($tamaño-texto)-2;
+
+
+    }
+
+    margin:$margen-texto ;
+
+
+}
+
+
+.parrafo-rugbyf2{
+
+    font-size: ($tamaño-texto)-2;
+
+    @include mobile {
+
+        font-size: ($tamaño-texto)-4;
+    }
+
+
+}

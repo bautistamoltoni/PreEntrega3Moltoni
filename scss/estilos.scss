@@ -1,7 +1,86 @@
+@import "./utilidades/reset.scss";
+@import "./utilidades/variables.scss";
+@import "./utilidades/medias-queries.scss";
 @import "./paginas/contacto.scss";
 @import "./paginas/reglas.scss";
 @import "./paginas/rugby7.scss";
 @import "./paginas/rugbyfemenino.scss";
 
 
+
+header{
+    background-color: black;
+    h1{
+        color: white;
+    }
+    nav{
+        background-color: white;
+        ul{
+            font-size: 15px;
+            font-weight: 400;
+        }
+            li{
+                list-style: none;
+                background-color: white;
+                margin: 5px;
+                &:hover{
+                    background-color:rgb(253, 183, 125) ;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: large;
+
+                }
+            }
+        }
+    }
+
+    footer{
+        div{
+            background-color: black;
+            color: black;
+        }
+    }
+
+
+
+.titulo-index{
+    font-family: $letra-titulo;
+
+
+}
+
+.parrafo-index{
+    font-size: $tamaño-texto;
+    margin: $margen-texto;
+    @include portatil {
+
+        font-size: ($tamaño-texto)-4;
+    }
+    
+@include mobile {
+
+    font-size: ($tamaño-texto)-4;
+}
+
+
+
+}
+
+.texto-index2{
+
+    font-size: $tamaño-texto;
+
+
+    @include portatil {
+
+        font-size: ($tamaño-texto)-4;
+    }
+    
+@include mobile {
+
+    font-size: ($tamaño-texto)-4;
+}
+}
 

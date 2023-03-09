@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+@media (min-width: 1201px) {
+  .parrafo-contacto {
+    font-size: 20px; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .parrafo-contacto {
+    font-size: 20px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .parrafo-contacto {
+    font-size: 18px; } }
+
+@media (min-width: 1201px) {
+  .li-reglas {
+    font-size: 18px; }
+  .tackle {
+    font-size: 18px; }
+  .line {
+    font-size: 18px; }
+  .scrum {
+    font-size: 20px; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .li-reglas {
+    font-size: 18px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .titulo-rugby7 {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .titulo-rugby7 {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+.parrafo-rugby7 {
+  font-size: 15px;
+  margin: 5px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .parrafo-rugby7 {
+      font-size: 18px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .h2-rugby7 {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .h2-rugby7 {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+.parrafo-rugbyf {
+  font-size: 20px;
+  margin: 5px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .parrafo-rugbyf {
+      font-size: 18px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .parrafo-rugbyf {
+      font-size: 17px; } }
+  @media (min-width: 480px) and (max-width: 767px) {
+    .parrafo-rugbyf {
+      font-size: 18px; } }
+
+.parrafo-rugbyf2 {
+  font-size: 18px; }
+  @media (min-width: 480px) and (max-width: 767px) {
+    .parrafo-rugbyf2 {
+      font-size: 16px; } }
+
+header {
+  background-color: black; }
+  header h1 {
+    color: white; }
+  header nav {
+    background-color: white; }
+    header nav ul {
+      font-size: 15px;
+      font-weight: 400; }
+    header nav li {
+      list-style: none;
+      background-color: white;
+      margin: 5px; }
+      header nav li:hover {
+        background-color: #fdb77d; }
+      header nav li a {
+        text-decoration: none;
+        color: black;
+        font-size: large; }
+
+footer div {
+  background-color: black;
+  color: black; }
+
+.titulo-index {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.parrafo-index {
+  font-size: 20px;
+  margin: 5px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .parrafo-index {
+      font-size: 16px; } }
+  @media (min-width: 480px) and (max-width: 767px) {
+    .parrafo-index {
+      font-size: 16px; } }
+
+.texto-index2 {
+  font-size: 20px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .texto-index2 {
+      font-size: 16px; } }
+  @media (min-width: 480px) and (max-width: 767px) {
+    .texto-index2 {
+      font-size: 16px; } }

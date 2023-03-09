@@ -1,0 +1,56 @@
+@import "../utilidades/variables.scss";
+@import "./utilidades/medias-queries.scss";
+
+.titulo-rugby7{
+
+    @include tablet {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include mobile {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    }
+
+
+
+.parrafo-rugby7 {
+       
+        font-size:  ($tamaño-texto)-5;
+
+    @include portatil {
+
+        font-size: ($tamaño-texto)-2;
+    }
+
+
+        margin: $margen-texto;
+
+}
+
+.h2-rugby7{
+
+    @include tablet {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    @include mobile {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

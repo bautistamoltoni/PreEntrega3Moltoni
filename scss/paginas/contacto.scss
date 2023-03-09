@@ -1,0 +1,44 @@
+@import "../utilidades/variables.scss";
+@import "./utilidades/medias-queries.scss";
+
+
+
+
+.contacto{
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+
+
+
+.parrafo-contacto{
+
+    @include desktop {
+
+        font-size: $tamaño-texto;
+    }
+
+    @include portatil {
+
+        font-size: $tamaño-texto;
+    }
+
+    @include tablet {
+
+        font-size: ($tamaño-texto)-2;
+    }
+
+}
